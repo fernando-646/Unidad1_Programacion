@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
     float RADIO, ALTURA, VOLUMEN, AREA;
-    cout << "Ingresa el valor del radio" << endl;
+    cout << "Ingresa el valor del radio del cilindro" << endl;
     cin >> RADIO;
-    cout << "Ingresa el valor del altura" << endl;
+    cout << "Ingresa el valor del altura del cilindro" << endl;
     cin >> ALTURA;
     VOLUMEN = (3.14159 * (RADIO * RADIO) * ALTURA);
     AREA = (2 * 3.14159 * (RADIO * ALTURA));
-    cout << "El valor del area es " << AREA << " y el valor del volumen es de " << VOLUMEN << endl;
+    cout << "El valor del area del cilindro es de " << AREA << " y el valor de su volumen es de " << VOLUMEN << endl;
     return 0;
 }
