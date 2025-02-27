@@ -7,6 +7,6 @@ int main() {
     cout << "Escriba la cantidad de galones comprados" << endl;
     cin >> GAL;
     TOTAL = GAL * LITRO * PRECIOLITRO;
-    cout << "El total a pagar es de: " << TOTAL << endl;
+    cout << "El cliente ha comprado " << GAL << " y el total a pagar es de: " << TOTAL << endl;
     return 0;
 }
