@@ -13,6 +13,6 @@ int main() {
 
     PESKG = PES * 1000;
     LONGMTS = LONG * 0.3047;
-    cout << "El peso en kilos del dinosaurio " << NOM << " es " << PESKG << " y su longitud en metros es de " << LONGMTS << endl;
+    cout << "El peso del dinosaurio " << NOM << " es de " << PESKG << "KG" << " y su longitud en metros es de " << LONGMTS << "M"<< endl;
     return 0;
 }
